@@ -1,0 +1,84 @@
+
+
+.main-photo{
+    grid-row: 1 / 7 ;
+    grid-column: 1 / 1;
+    width: 120%;
+    overflow: contain;
+    object-fit: fill;
+    border-radius: 5em;
+  
+
+
+}
+.title{
+    grid-row: 1 / 7 ;
+    grid-column: 1 / 1;
+    position: relative;
+    object-fit: contain;
+    top: 40%;
+    font-weight: 900px;
+    font-size: 8px;
+    color: white;
+}
+
+/* .navbar{
+    display: inline grid;
+    grid-column: 1fr 1fr 2fr;
+    grid-template-areas:"navbar1 navbar2 navbar3";
+} */
+
+.gallery{
+    grid-area: 1 / 5 / 1 /5;
+    font-size: 10
+}
+
+.stories{
+    grid-area: 1 / 6 / 1 /6;
+}
+
+.discover{
+    grid-area: 2 / 2 / 2 / 6;
+    font-size: 2em;
+    text-align: center;
+}
+
+.discoverbar{
+    grid-area: 3 / 2 / 3 / 6;
+    display: -moz-inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.alaska{
+    grid-column: 3 / 4;
+    width: 100px;
+    height: 150px;
+    /* position: absolute;
+    right: 150px; */
+    overflow: contain;
+    object-fit: fill;
+    border-radius: 1em;
+}
+
+.alaska2{
+    grid-area: 4 / 5 ;
+    width: 100px;
+    height: 150px;
+    /* position: absolute;
+    right: 150px; */
+    overflow: contain;
+    object-fit: fill;
+    border-radius: 1em;
+}
+
+.discoverphotos{
+    grid-area: 4 / 2 / 4 / 6;
+}
+
+.travelheader{
+    grid-area: 5 / 2 / 5 / 6;
+}
+
+.travelslides{
+    grid-area: 6 / 2 / 6 / 6;
+}
